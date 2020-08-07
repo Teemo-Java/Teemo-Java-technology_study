@@ -30,5 +30,7 @@ JAVA内存分区
 
 第10讲
 JVM参数
--Xms
--Xmx
+-Xms：Java堆内存的大小  -Xmx：Java堆内存的最大大小，(这两个一般设置一样大)
+-Xmn：Java堆内存中的新生代大小，扣除新生代剩下的就是老年代的内存大小了
+-XX:PermSize：永久代大小 -XX:MaxPermSize：永久代最大大小 (这两个一般设置一样大)
+-Xss：每个线程的栈内存大小
