@@ -1,6 +1,3 @@
-package com.test.JvmCode.chapter7.test1;
-
-
 /**
  java -jar JvmCode-0.0.1-SNAPSHOT.jar -XX:NewSize=5242880 -XX:MaxNewSize=5242880 -XX:InitialHeapSize=10485760 -XX:MaxHeapSize=10485760
   -XX:SurvivorRatio=8 -XX:PretenureSizeThreshold=10485760 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC 
