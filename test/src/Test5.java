@@ -19,7 +19,7 @@ public class Test5 {
         arr1 = null;
         Thread.sleep(1000);
 /*
-        堆内存20M  新生代100M  eden 80M S 10M
+        堆内存200M  新生代100M  eden 80M S 10M
         javac -encoding UTF-8  Test5.java
        java -XX:NewSize=104857600 -XX:MaxNewSize=104857600 -XX:InitialHeapSize=209715200 -XX:MaxHeapSize=209715200 -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=15 -XX:PretenureSizeThreshold=3145728 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:D:\\gc.log Test5
        使用jps 找到进程id，使用jstat -gc 打印运行时内存占用情况:jstat -gc Pid 1000 1000  打印Pid的线程内存占用情况  每隔一秒打印一次  一共打印1000次，打印结果列2如下

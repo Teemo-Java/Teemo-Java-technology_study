@@ -47,6 +47,9 @@ public class Test6 {
         java -XX:NewSize=209715200 -XX:MaxNewSize=209715200 -XX:InitialHeapSize=314572800 -XX:MaxHeapSize=314572800 -XX:SurvivorRatio=2  -XX:MaxTenuringThreshold=15 -XX:PretenureSizeThreshold=20971520 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:gc.log Test6
 
         从jstat结果中 可以看出，老年代不进行了Old GC了，每次Young GC之后，最多30M多存活对象，S区可以轻易容纳，因此对象根本不会进入老年代。最终500多K的未知对象进入老年代了
+
+        (在发生Young GC的时候，可能有些工作线程还未执行完，所以这些线程会有对应的存活对象(一般这些线程任务执行完之后 对象都是垃圾，只是就Young GC这个过程来说 还算是存活对象)，
+        如果太多的话，就可能触发动态规则，进入老年代，其实这是不必要的，这就是我认为调大S区的重要原因)
  */
     }
 }
