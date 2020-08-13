@@ -24,8 +24,8 @@
       <file leaf-file-name="AAA.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AAA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+            <state relative-caret-position="27">
+              <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -188,12 +188,12 @@
       <workItem from="1597223857949" duration="3626000" />
       <workItem from="1597237988157" duration="3234000" />
       <workItem from="1597282480611" duration="14755000" />
-      <workItem from="1597311297997" duration="1313000" />
+      <workItem from="1597311297997" duration="3008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29557000" />
+    <option name="totallyTimeSpent" value="31252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -365,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AAA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+        <state relative-caret-position="27">
+          <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
         </state>
       </provider>
     </entry>
